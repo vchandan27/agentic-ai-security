@@ -1,22 +1,102 @@
-# 🔐 Phase 3 — Security Fundamentals for AI
+# 🔐 Phase 3: Security Fundamentals
 
-> **Goal:** Bridge classical security knowledge to the AI context. If you already know security well, this phase recalibrates your models for agents. If you're an AI developer new to security, this phase gives you the vocabulary.
+> **Before you can understand how agentic AI gets attacked, you need to understand the security principles it's built on.**
+
+This phase covers the foundational security concepts that every agentic AI practitioner needs — from the classic CIA triad to emerging topics like Zero Trust architectures designed specifically for autonomous agents.
 
 ---
 
-## Articles in This Phase
+## Why This Phase?
 
-| # | Article | Key Concepts |
-|---|---------|-------------|
-| 3.1 | [🗺️ Threat Modeling for AI Systems](./01-threat-modeling-for-ai.md) | STRIDE, PASTA, attack trees adapted for agents |
-| 3.2 | [🔒 CIA Triad in the AI Context](./02-cia-triad-in-ai.md) | Confidentiality, Integrity, Availability — redefined for LLMs |
-| 3.3 | [🏚️ Trust Boundaries & Attack Surface](./03-trust-boundaries.md) | Why agents collapse traditional trust boundaries |
-| 3.4 | [🔑 Principle of Least Privilege](./04-least-privilege.md) | Scoping agent permissions — tools, memory, data |
-| 3.5 | [⛓️ Supply Chain Security](./05-supply-chain-security.md) | Model supply chain, poisoned dependencies, SBOMs |
-| 3.6 | [🆔 Auth & Identity for Agents](./06-auth-and-identity.md) | OAuth flows, API key management, agent identity |
-| 3.7 | [🌐 Zero Trust Architecture for Agents](./07-zero-trust-for-agents.md) | Applying ZTA principles to multi-agent systems |
+Most AI developers have deep ML knowledge but limited security background. Most security engineers understand traditional systems but not AI-specific risks. This phase bridges both worlds — grounding you in the security fundamentals *as they apply to AI agents*, not as abstract theory.
 
-> 📝 *Full articles in progress — foundations covered in Phase 1.*
+After this phase, you'll be able to:
+- Classify any AI security threat using the CIA triad
+- Map the trust boundaries in any agent architecture
+- Design agent systems that follow least-privilege principles
+- Understand your AI supply chain and its risks
+- Build authentication systems that work for autonomous agents
+- Apply Zero Trust principles to multi-agent deployments
+
+---
+
+## Articles
+
+| # | Article | Core Concept | Read Time |
+|---|---------|-------------|-----------|
+| 01 | [Threat Modeling for AI](./01-threat-modeling-for-ai.md) | STRIDE + MITRE ATLAS applied to AI | 20 min |
+| 02 | [CIA Triad in AI Systems](./02-cia-triad-in-ai.md) | Confidentiality, Integrity, Availability for agents | 18 min |
+| 03 | [Trust Boundaries & Attack Surface](./03-trust-boundaries.md) | The 6 critical trust boundaries in agent systems | 20 min |
+| 04 | [Principle of Least Privilege](./04-least-privilege.md) | 5 dimensions of agent privilege | 16 min |
+| 05 | [Supply Chain Security](./05-supply-chain-security.md) | Models, packages, MCP servers, training data | 22 min |
+| 06 | [Auth & Identity for Agents](./06-auth-and-identity.md) | OAuth, JWTs, mTLS, delegated authorization | 24 min |
+| 07 | [Zero Trust Architecture](./07-zero-trust.md) | Never trust, always verify — for AI agents | 22 min |
+
+**Total phase reading time: ~2.5 hours**
+
+---
+
+## Phase Map
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  PHASE 3 LEARNING PATH                          │
+│                                                                 │
+│  START HERE                                                     │
+│      │                                                          │
+│      ▼                                                          │
+│  ┌───────────────────────────────────────────────────────┐     │
+│  │  01 — THREAT MODELING FOR AI                          │     │
+│  │  Learn the language of security: STRIDE, ATLAS,       │     │
+│  │  four questions. Foundation for everything else.      │     │
+│  └──────────────────────────┬────────────────────────────┘     │
+│                             │                                   │
+│      ┌──────────────────────┼──────────────────────┐           │
+│      ▼                      ▼                      ▼           │
+│  ┌───────────┐        ┌───────────┐         ┌──────────────┐   │
+│  │ 02 — CIA  │        │ 03 — TRUST│         │ 04 — LEAST   │   │
+│  │  TRIAD    │        │ BOUNDARIES│         │  PRIVILEGE   │   │
+│  │           │        │           │         │              │   │
+│  │ Classify  │        │ Map your  │         │ Minimize the │   │
+│  │ any threat│        │ attack    │         │ blast radius │   │
+│  └─────┬─────┘        │ surface   │         └──────┬───────┘   │
+│        │              └─────┬─────┘                │           │
+│        └──────────────┬─────┘──────────────────────┘           │
+│                       ▼                                         │
+│  ┌───────────────────────────────────────────────────────┐     │
+│  │  05 — SUPPLY CHAIN SECURITY                           │     │
+│  │  Models, packages, MCP servers, training data         │     │
+│  └──────────────────────────┬────────────────────────────┘     │
+│                             │                                   │
+│      ┌──────────────────────┼──────────────────────┐           │
+│      ▼                                             ▼           │
+│  ┌───────────────────┐               ┌─────────────────────┐   │
+│  │ 06 — AUTH &       │               │ 07 — ZERO TRUST     │   │
+│  │  IDENTITY         │               │  ARCHITECTURE       │   │
+│  │                   │               │                     │   │
+│  │ Who is the agent? │               │ Never trust,        │   │
+│  │ On whose behalf?  │               │ always verify       │   │
+│  └───────────────────┘               └─────────────────────┘   │
+│                                                                 │
+│  READY FOR → Phase 4: Agentic AI Threats                       │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Key Concepts Introduced in This Phase
+
+| Concept | Article | Why It Matters |
+|---------|---------|----------------|
+| STRIDE threat taxonomy | 01 | Universal language for classifying threats |
+| MITRE ATLAS | 01 | Adversarial AI-specific attack catalog |
+| CIA triad | 02 | Framework for evaluating any security control |
+| Trust boundaries (TB-1 → TB-6) | 03 | Where attacks happen in agent systems |
+| 5 dimensions of privilege | 04 | Complete least-privilege model for agents |
+| AI-BOM | 05 | Bill of Materials for AI supply chains |
+| Delegated authorization | 06 | Agent acting on user's behalf securely |
+| Policy engine (OPA) | 07 | Centralized, auditable access decisions |
+| Assume breach design | 07 | Building for the inevitable compromise |
 
 ---
 
@@ -27,7 +107,7 @@ Classical security assumes:
 - **Fixed behavior** (same input = same output)
 - **Hard boundaries** (network perimeters, ACLs)
 
-Agentic AI breaks all three assumptions:
+Agentic AI breaks all three:
 
 ```
 Classical:  Input → [Deterministic Logic] → Output
@@ -46,6 +126,35 @@ The security frameworks in this phase give you the vocabulary to reason about th
 
 ---
 
-## What Comes Next?
+## Quick Reference: 7 Security Questions
 
-After Phase 3 → [Phase 4: Agentic AI Threat Taxonomy](../04-agentic-ai-threats/) — the 15 attack classes you need to know, with diagrams and real examples.
+```
+When designing an agent, ask these 7 questions:
+
+1. THREAT MODEL: What are the assets? Who are the adversaries?
+                 What are the threats? (STRIDE them)
+
+2. CIA: Does my design protect Confidentiality, Integrity, and
+        Availability? Which is most at risk?
+
+3. TRUST BOUNDARIES: Where does data cross trust levels?
+                     Is it validated at every boundary?
+
+4. LEAST PRIVILEGE: Does each agent/tool have ONLY what it needs?
+                    Scope, depth, data, autonomy, time?
+
+5. SUPPLY CHAIN: What am I depending on? Is each dependency trusted?
+                 Models, packages, MCP servers, external data?
+
+6. IDENTITY: Who is this agent? On whose behalf? What's authorized?
+             Is every action attributable to a human?
+
+7. ZERO TRUST: Am I assuming any component might be compromised?
+               Is every request verified? Is the blast radius limited?
+```
+
+---
+
+## Navigation
+
+← [Phase 2: Agentic AI in Practice](../02-agentic-ai-in-practice/README.md) | [Phase 4: Agentic AI Threats →](../04-agentic-ai-threats/README.md)
