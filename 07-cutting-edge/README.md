@@ -17,14 +17,14 @@ The field moves faster than any textbook can track. New attack surfaces emerge w
 | # | Article | Status |
 |---|---------|--------|
 | 7.1 | [🔌 MCP Security Deep Dive](./01-mcp-security.md) | ✅ Published |
-| 7.2 | [🤝 A2A Protocol Security](./02-a2a-security.md) | 🔄 In Progress |
-| 7.3 | [🦅 OpenClaw](./03-openclaw.md) | 🔄 In Progress |
-| 7.4 | [🔴 Agentic AI Red Teaming at Scale](./04-agentic-redteaming.md) | 🔄 In Progress |
+| 7.2 | 🤝 A2A Protocol Security | 📝 Coming Soon |
+| 7.3 | [🦅 OpenClaw & Emerging Standards](./03-openclaw.md) | ✅ Published |
+| 7.4 | 🔴 Agentic AI Red Teaming at Scale | 📝 Coming Soon |
 | 7.5 | [🦠 AI Worms & Self-Propagating Agents](./05-ai-worms.md) | ✅ Published |
-| 7.6 | [😴 Sleeper Agent Detection Research](./06-sleeper-detection.md) | 🔄 In Progress |
-| 7.7 | [📊 Agent Security Benchmarks](./07-agent-benchmarks.md) | 🔄 In Progress |
-| 7.8 | [🔒 Confidential AI & TEE for Agents](./08-confidential-ai.md) | 🔄 In Progress |
-| 7.9 | [🚫 Zero Trust Architecture for Agents](./09-zero-trust-agents.md) | 🔄 In Progress |
+| 7.6 | 😴 Sleeper Agent Detection Research | 📝 Coming Soon |
+| 7.7 | 📊 Agent Security Benchmarks | 📝 Coming Soon |
+| 7.8 | [🔒 Confidential AI & TEE for Agents](./08-confidential-ai.md) | ✅ Published |
+| 7.9 | 🚫 Zero Trust Architecture for Agents | 📝 Coming Soon |
 | 7.10 | [📄 Key Research Papers](./10-research-papers.md) | ✅ Published |
 
 ---

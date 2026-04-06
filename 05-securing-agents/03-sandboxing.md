@@ -788,4 +788,4 @@ SELECTION:
 
 ---
 
-← [Prev: Input Validation & Output Sanitization](./02-input-output-validation.md) | [Next: Human-in-the-Loop Design →](./04-human-in-the-loop.md)
+*← [Prev: Input Validation & Output Sanitization](./02-input-output-validation.md) | [Next: Human-in-the-Loop Design →](./04-human-in-the-loop.md)*

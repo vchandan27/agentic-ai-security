@@ -417,4 +417,4 @@ OUTPUT:
 
 ---
 
-*← [Prev: Secure Multi-Agent Orchestration](./11-secure-multi-agent.md) | [Phase 6: Frameworks & Standards →](../06-frameworks-and-standards/README.md)*
+*← [Prev: Secure Multi-Agent Orchestration](./11-secure-multi-agent.md) | [Next: MAESTRO Framework →](../06-frameworks-and-standards/01-maestro-framework.md)*

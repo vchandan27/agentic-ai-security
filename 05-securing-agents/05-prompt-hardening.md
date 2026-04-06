@@ -692,4 +692,4 @@ REMEMBER:
 
 ---
 
-← [Prev: Human-in-the-Loop Design](./04-human-in-the-loop.md) | [Next: Secure MCP Server Design →](./06-secure-mcp.md)
+*← [Prev: Human-in-the-Loop Design](./04-human-in-the-loop.md) | [Next: Secure MCP Server Design →](./06-secure-mcp.md)*

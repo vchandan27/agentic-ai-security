@@ -544,4 +544,4 @@ EDGE CASES:
 
 ---
 
-← [Prev: Sandboxing Tool Execution](./03-sandboxing.md) | [Next: Prompt Hardening →](./05-prompt-hardening.md)
+*← [Prev: Sandboxing Tool Execution](./03-sandboxing.md) | [Next: Prompt Hardening →](./05-prompt-hardening.md)*

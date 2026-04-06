@@ -443,4 +443,4 @@ INCIDENT RESPONSE:
 
 ---
 
-*← [Prev: Secure MCP Design](./06-secure-mcp.md) | [Next: Security Monitoring →](./08-security-monitoring.md)*
+*← [Prev: Secure MCP Server Design](./06-secure-mcp.md) | [Next: Security Monitoring →](./08-security-monitoring.md)*

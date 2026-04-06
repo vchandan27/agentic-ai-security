@@ -103,12 +103,12 @@ flowchart TD
 | Phase | Topic | Articles | Status |
 |-------|-------|----------|--------|
 | [📘 01](./01-foundations/) | **Foundations of Agentic AI** | 9 | ✅ Complete |
-| [⚙️ 02](./02-agentic-ai-in-practice/) | **Agentic AI in Practice** | 9 | 🔄 In Progress |
-| [🔐 03](./03-security-fundamentals/) | **Security Fundamentals** | 7 | 🔄 In Progress |
+| [⚙️ 02](./02-agentic-ai-in-practice/) | **Agentic AI in Practice** | 9 | ✅ Complete |
+| [🔐 03](./03-security-fundamentals/) | **Security Fundamentals** | 7 | ✅ Complete |
 | [💀 04](./04-agentic-ai-threats/) | **Agentic AI Threat Taxonomy** | 15 | ✅ Complete |
-| [🛡️ 05](./05-securing-agents/) | **Securing Agents** | 12 | 🔄 In Progress |
-| [📋 06](./06-frameworks-and-standards/) | **Frameworks & Standards** | 12 | ✅ Complete |
-| [🔬 07](./07-cutting-edge/) | **Cutting Edge** | 10 | 🔄 In Progress |
+| [🛡️ 05](./05-securing-agents/) | **Securing Agents** | 12 | ✅ Complete |
+| [📋 06](./06-frameworks-and-standards/) | **Frameworks & Standards** | 6 | ✅ Complete |
+| [🔬 07](./07-cutting-edge/) | **Cutting Edge** | 5 | 🔄 In Progress |
 | [📖 08](./08-resources/) | **Resources & Reference** | 1 | ✅ Complete |
 
 ---

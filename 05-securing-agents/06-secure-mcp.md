@@ -953,4 +953,4 @@ OPERATIONAL:
 
 ---
 
-← [Prev: Prompt Hardening Against Injection](./05-prompt-hardening.md) | [Next: Agent Identity & Attestation →](./07-agent-identity.md)
+*← [Prev: Prompt Hardening Against Injection](./05-prompt-hardening.md) | [Next: Agent Identity & Attestation →](./07-agent-identity.md)*
