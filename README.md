@@ -108,7 +108,7 @@ flowchart TD
 | [💀 04](./04-agentic-ai-threats/) | **Agentic AI Threat Taxonomy** | 15 | ✅ Complete |
 | [🛡️ 05](./05-securing-agents/) | **Securing Agents** | 12 | ✅ Complete |
 | [📋 06](./06-frameworks-and-standards/) | **Frameworks & Standards** | 6 | ✅ Complete |
-| [🔬 07](./07-cutting-edge/) | **Cutting Edge** | 5 | 🔄 In Progress |
+| [🔬 07](./07-cutting-edge/) | **Cutting Edge** | 10 | ✅ Complete |
 | [📖 08](./08-resources/) | **Resources & Reference** | 1 | ✅ Complete |
 
 ---
